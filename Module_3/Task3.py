@@ -1,0 +1,5 @@
+a = input()
+f_first = a.find("f", 0, a.__sizeof__())
+print(f_first)
+f_last = a.rfind("f", f_first+1, a.__sizeof__())
+print(f_last)

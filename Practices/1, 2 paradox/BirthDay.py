@@ -1,6 +1,13 @@
 import random
-def birthday(iterations: int = 100000, people: int = 23) -> float:
 
+
+def birthday(iterations: int = 100000, people: int = 23) -> float:
+    '''
+
+    :param iterations: количество повторов
+    :param people: количество людей
+    :return: процент людей с одинаковыми др из people
+    '''
     b_days = []
     count_true = 0
 

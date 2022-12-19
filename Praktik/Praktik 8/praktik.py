@@ -10,43 +10,43 @@ def read_file(filename: str):
     wor = re.sub(r"\d+", '', wor)
     return wor.split()
 
-def list_words(words: [str]):
-    wordsCount = {}
+def list_words(worrds: [str]):
+    worrdsCount = {}
 
-    for word in words:
-        if len(word) > 1:
-            if not word in wordsCount:
-                wordsCount[word] = 0
-            wordsCount[word] += 1
+    for wor in worrds:
+        if len(wor) > 1:
+            if not wor in worrdsCount:
+                worrdsCount[wor] = 0
+            worrdsCount[wor] += 1
 
-    sorted_words = {}
-    sorted_keys = sorted(wordsCount, key=wordsCount.get)
+    sorted_worrds = {}
+    sorted_keys = sorted(worrdsCount, key=worrdsCount.get)
     sorted_keys.reverse()
 
     for values in sorted_keys:
-        sorted_words[values] = wordsCount[values]
+        sorted_worrds[values] = worrdsCount[values]
 
-    return sorted_words
+    return sorted_worrds
 
-def translate(words: {}):
+def translate(worrds: {}):
     morph = pymorphy2.MorphAnalyzer()
     translator = Translator(from_lang="ru", to_lang="en")
 
-    translate_words = {}
-    for key, value in words.items():
-        en_word = str
+    translate_worrds = {}
+    for key, value in worrds.items():
+        en_worrd = str
         try:
-            normal_word = morph.parse(key)[0].normal_form
-            en_word = translator.translate(normal_word)
-            if en_word == None:
+            normal_worrd = morph.parse(key)[0].normal_form
+            en_worrd = translator.translate(normal_worrd)
+            if en_worrd == None:
                 raise Exception
         except:
-            en_word = 'untranslated'
+            en_worrd = 'untranslated'
 
-        print(en_word)
-        translate_words[en_word] = value
+        print(en_worrd)
+        translate_worrds[en_worrd] = value
 
-    return translate_words
+    return translate_worrds
 
 
 def write_file(filename, translate_words: {}, sorted_words: {}):

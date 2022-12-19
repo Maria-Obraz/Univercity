@@ -1,12 +1,12 @@
 import random
 
-def choose_continue_game(words: list[str]) -> bool:
+def choose_continue_game(wor: list[str]) -> bool:
     '''
 
-    :param words: список слов для игры
+    :param wor: список слов для игры
     :return: выбор пользователя продолжения игры
     '''
-    if len(words) == 0:
+    if len(wor) == 0:
         return False
 
     choice = input('Хотите сыграть еще? да/нет ')
@@ -14,15 +14,15 @@ def choose_continue_game(words: list[str]) -> bool:
         return True
     if choice == 'нет':
         return False
-    choose_continue_game(words)
+    choose_continue_game(wor)
 
-def find_word(words: list[str]) -> str:
+def find_worrd(wor: list[str]) -> str:
     '''
 
-    :param words: список слов для игры
+    :param wor: список слов для игры
     :return: случайное слово из списка
     '''
-    print(words)
-    word = random.choice(words)
-    words.remove(word)
-    return word
+    print(wor)
+    worrd = random.choice(wor)
+    wor.remove(worrd)
+    return worrd

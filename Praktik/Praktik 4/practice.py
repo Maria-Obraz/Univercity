@@ -6,15 +6,15 @@ def read_file(name: str) -> list[str]:
     :param name: путь к файлу чтения
     :return: список отсортированных уникальных слов без спец симоволов
     '''
-    f = open(name, 'r')
-    text = f.read() #чтение из файла
+    a = open(name, 'r')
+    text = a.read() #чтение из файла
     text = re.sub(r'[^\w\s]', '', text) #удаление пунктуации
     text = text.lower() #перевод в нижний регистр
-    words = text.split() #разделение
-    words = list(set(words)) #удаление повторов
-    words.sort() #сортировка
-    f.close()
-    return words
+    wor = text.split() #разделение
+    wor = list(set(wor)) #удаление повторов
+    wor.sort() #сортировка
+    a.close()
+    return wor
 
 def save_file(name: str, words: list[str]) -> None:
     '''
@@ -23,17 +23,17 @@ def save_file(name: str, words: list[str]) -> None:
     :param words: список слов
     :return:
     '''
-    f = open(name, 'r')
-    text = f.read()
+    a = open(name, 'r')
+    text = a.read()
     if len(text) != 0:
-        f.seek(0)
-        f.close()
+        a.seek(0)
+        a.close()
         return 0
 
-    f = open(name, 'a')
-    f.write(f'Всего уникальных слов: {str(len(words))} \n================\n')
-    f.write('\n'.join(words))
-    f.close()
+    a = open(name, 'a')
+    a.write(f'Всего уникальных слов: {str(len(words))} \n================\n')
+    a.write('\n'.join(words))
+    a.close()
 
 words = read_file('data.txt')
 save_file("count.txt", words)

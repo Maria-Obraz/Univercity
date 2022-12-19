@@ -5,10 +5,10 @@ text = f.readlines()
 
 data = []
 for line in text:
-    info = re.match(r'(^Рейс\s\d{3}\s(?:прибыл|отправился)\s(?:из|в)\s\w{4,10}\sв\s\d{2}:\d{2}:\d{2})', line)
+    i = re.match(r'(^Рейс\s\d{3}\s(?:прибыл|отправился)\s(?:из|в)\s\w{4,10}\sв\s\d{2}:\d{2}:\d{2})', line)
 
-    if info != None:
-        data.append(info[0])
+    if i != None:
+        data.append(i[0])
 
 rasp = []
 for line in data:

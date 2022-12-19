@@ -1,6 +1,6 @@
 import os
 
-def get_words(path: str= os.path.dirname(__file__) + '\\' + 'words.txt') -> list[str]:
+def get_words(path: str= os.path.dirname(__file__) + '\\' + 'wor.txt') -> list[str]:
     '''
     Ошибка если не удалось прочитать файл
     :param path: путь файла
@@ -8,11 +8,11 @@ def get_words(path: str= os.path.dirname(__file__) + '\\' + 'words.txt') -> list
     '''
     if not check_file(path):
         print('Ошибка!')
-    f = open(path, 'r+', encoding='utf-8')
-    text = f.readlines()
-    words = str(*text).split()
-    f.close()
-    return words
+    a = open(path, 'r+', encoding='utf-8')
+    text = a.readlines()
+    wor = str(*text).split()
+    a.close()
+    return wor
 
 def write_record(record: int, file: str= os.path.dirname(__file__) + '\\' + 'record.txt') -> None:
     '''
@@ -23,13 +23,13 @@ def write_record(record: int, file: str= os.path.dirname(__file__) + '\\' + 'rec
     '''
     if not check_file(file):
         print('Ошибка!')
-    f = open(file, 'r+', encoding='utf-8')
-    old_record = f.read()
+    a = open(file, 'r+', encoding='utf-8')
+    old_record = a.read()
     if record < int(old_record):
         print('Новый рекорд!')
-        f.seek(0)
-        f.write(str(record))
-    f.close()
+        a.seek(0)
+        a.write(str(record))
+    a.close()
 
 def check_file(filename: str) -> bool:
     '''

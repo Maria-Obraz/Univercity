@@ -4,10 +4,10 @@ from docx2pdf import convert
 from PIL import Image
 
 def correct_input(min_value, max_value):
-    n = input()
-    if n.isdigit():
-        if int(n) <= max_value and int(n) >= min_value:
-            return int(n)
+    k = input()
+    if k.isdigit():
+        if int(k) <= max_value and int(k) >= min_value:
+            return int(k)
 
     print(f'\nВведите число от {min_value} до {max_value}')
     return correct_input(min_value, max_value)
@@ -25,10 +25,10 @@ def menu():
 
 
 def change_dir():
-    path = input('Укажите путь к каталогу: ')
+    pat = input('Укажите путь к каталогу: ')
 
     try:
-        os.chdir(path)
+        os.chdir(pat)
     except:
         print('\nНеверный путь')
         change_dir()

@@ -5,26 +5,26 @@ def get_books(filename: str, name: str):
     with open(filename, 'r') as f:
         reader = csv.reader(f, delimiter='|')
 
-        result = [[]]
-        result.clear()
+        resultat = [[]]
+        resultat.clear()
 
         for row in reader:
             if ''.join(row).__contains__(name):
-                result.append(row)
+                resultat.append(row)
 
-        return result
+        return resultat
 
 def get_totals(data: [[]], sum = 0, add = 0):
-    result = [[]]
-    result.clear()
+    resultat = [[]]
+    resultat.clear()
 
     for row in data:
         count = int(row[3]) * float(row[4])
         if count < sum:
             sum += add
-        result.append([row[0], count])
+        resultat.append([row[0], count])
 
-    return result
+    return resultat
 
 
 books = get_books("file.csv", "Python")

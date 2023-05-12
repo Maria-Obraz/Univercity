@@ -1,0 +1,73 @@
+Название смартфона | Цена в рублях
+ Apple iPhone 14 Pro Max 256Gb nanoSim + eSim Deep Purple | 110 990
+ Apple iPhone 14 Pro 256Gb nanoSim + eSim Deep Purple | 101 990
+ Apple iPhone 14 Pro Max 128Gb nanoSim + eSim Space Black | 100 490
+ Apple iPhone 14 Pro Max 128Gb nanoSim + eSim Deep Purple | 100 990
+ Apple iPhone 14 Pro Max 256Gb nanoSim + eSim Silver | 111 990
+ Apple iPhone 13 128Gb Starlight | 61 990
+ Apple iPhone 14 128Gb nanoSim + eSim Starlight | 67 990
+ Apple iPhone 14 Pro 128Gb nanoSim + eSim Deep Purple | 94 590
+ Apple iPhone 11 128Gb Black | 45 990
+ Apple iPhone 13 128Gb Midnight | 59 590
+ Apple iPhone 14 128Gb nanoSim + eSim Midnight | 69 990
+ Apple iPhone 14 128Gb nanoSim + eSim Purple | 69 990
+ Apple iPhone 14 128Gb nanoSim + eSim Blue | 68 490
+ Apple iPhone 14 Pro Max 512Gb nanoSim + eSim Deep Purple | 127 590
+ Apple iPhone 14 Pro 128Gb nanoSim + eSim Space Black | 93 990
+ Apple iPhone 14 Pro 256Gb Dual nanoSim Deep Purple | 101 590
+ Apple iPhone 14 Pro 128Gb nanoSim + eSim Silver | 95 790
+ Apple iPhone 14 Pro Max 512Gb nanoSim + eSim Space Black | 132 990
+ Apple iPhone 14 Pro 256Gb nanoSim + eSim Space Black | 101 990
+ Apple iPhone 14 Pro Max 256Gb nanoSim + eSim Gold | 109 990
+ Apple iPhone 13 128Gb Green | 60 490
+ Apple iPhone 13 128Gb Blue | 59 590
+ Apple iPhone 14 Pro Max 128Gb nanoSim + eSim Silver | 100 990
+ Apple iPhone 14 Pro 256Gb nanoSim + eSim Gold | 100 990
+ Apple iPhone 13 128Gb Pink | 60 490
+ Apple iPhone 14 Pro 128Gb nanoSim + eSim Gold | 93 990
+ Apple iPhone 14 Pro Max 1Tb nanoSim + eSim Deep Purple | 147 990
+ Apple iPhone 14 Pro 256Gb Dual nanoSim Space Black | 101 990
+ Apple iPhone 13 Mini 128Gb Midnight | 57 490
+ Apple iPhone 14 Pro Max 128Gb nanoSim + eSim Gold | 99 990
+ Apple iPhone 14 Pro 256Gb nanoSim + eSim Silver | 101 990
+ Apple iPhone 13 Mini 128Gb Starlight | 57 190
+ Apple iPhone SE (2022) 64Gb Starlight | 33 950
+ Apple iPhone 12 Mini 256Gb Green | 53 290
+ Apple iPhone 14 Pro Max 128Gb Dual nanoSim Deep Purple | 104 990
+ Apple iPhone 11 64Gb Black | 39 590
+ Apple iPhone 14 Plus 128Gb nanoSim + eSim Midnight | 75 590
+ Apple iPhone 13 Mini 128Gb Pink | 55 990
+ Apple iPhone 14 Pro Max 128Gb Dual nanoSim Silver | 103 490
+ Apple iPhone 14 Plus 128Gb nanoSim + eSim Starlight | 73 490
+ Apple iPhone 13 256Gb Blue | 71 490
+ Apple iPhone 14 256Gb nanoSim + eSim Starlight | 82 150
+ Apple iPhone 14 Pro Max 256Gb Dual nanoSim Silver | 119 990
+ Apple iPhone 14 Pro 256Gb Dual nanoSim Gold | 100 590
+ Apple iPhone 12 Mini 256Gb White | 51 990
+ Apple iPhone 11 64Gb White | 39 590
+ Apple iPhone 13 256Gb Midnight | 71 990
+ Apple iPhone 14 128Gb nanoSim + eSim Red | 69 990
+ Apple iPhone 14 256Gb nanoSim + eSim Blue | 78 490
+ Apple iPhone 12 Mini 128Gb Green | 47 990
+ Apple iPhone 12 Mini 128Gb Red | 47 990
+ Apple iPhone SE (2022) 128Gb Midnight | 43 490
+ Apple iPhone 11 64Gb Purple | 40 990
+ Apple iPhone 13 Mini 128Gb Green | 57 990
+ Apple iPhone 14 256Gb nanoSim + eSim Midnight | 78 590
+ Apple iPhone 14 Pro Max 1Tb Dual eSim Deep Purple | 129 490
+ Apple iPhone 12 Mini 128Gb Purple | 49 490
+ Apple iPhone 12 Mini 128Gb Blue | 48 490
+ Apple iPhone 13 Mini 128Gb Red | 56 490
+ Apple iPhone 13 Mini 128Gb Blue | 57 990
+ Apple iPhone 14 Pro 512Gb nanoSim + eSim Gold | 124 490
+ Apple iPhone 12 Mini 256Gb Purple | 51 990
+ Apple iPhone 12 Mini 256Gb Blue | 51 990
+ Apple iPhone 11 128Gb Product Red | 45 490
+ Apple iPhone 13 512Gb Alpine Green | 81 990
+ Apple iPhone 14 128Gb nanoSim + eSim Yellow | 70 290
+ Apple iPhone 14 256Gb Dual nanoSim Starlight | 78 990
+ Apple iPhone 14 256Gb Dual nanoSim Purple | 78 990
+ Apple iPhone 14 256Gb Dual nanoSim Midnight | 77 990
+ Apple iPhone 14 Plus 256Gb nanoSim + eSim Purple | 87 590
+ Apple iPhone 14 Plus 256Gb nanoSim + eSim Blue | 87 990
+ Apple iPhone 14 Pro 1Tb nanoSim + eSim Gold | 143 490
